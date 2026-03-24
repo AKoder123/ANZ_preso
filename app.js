@@ -117,11 +117,13 @@
     inner.className = 'slide-inner';
     wrap.appendChild(inner);
 
-    if (s.type === 'title')       buildTitle(inner, s);
-    else if (s.type === 'content') buildContent(inner, s);
+    if (s.type === 'title')            buildTitle(inner, s);
+    else if (s.type === 'program')     buildProgram(inner, s);
+    else if (s.type === 'content')     buildContent(inner, s);
     else if (s.type === 'beforeAfter') buildBeforeAfter(inner, s);
-    else if (s.type === 'closing') buildClosing(inner, s);
-    else if (s.type === 'section') buildSection(inner, s);
+    else if (s.type === 'timeline')    buildTimeline(inner, s);
+    else if (s.type === 'closing')     buildClosing(inner, s);
+    else if (s.type === 'section')     buildSection(inner, s);
 
     return wrap;
   }
@@ -174,6 +176,93 @@
     });
 
     inner.appendChild(right);
+  }
+
+  /* ── PROGRAM (initiative overview) ── */
+  function buildProgram(inner, s) {
+    // Header
+    const header = div('content-header', 'data-animate');
+    const ey = div('eyebrow');
+    ey.textContent = 'Initiative Overview';
+    header.appendChild(ey);
+    const hl = div('headline');
+    hl.innerHTML = `<span class="grad">${esc(s.headline || '')}</span>`;
+    header.appendChild(hl);
+    if (s.subheadline) {
+      const sub = div('subheadline');
+      sub.textContent = s.subheadline;
+      header.appendChild(sub);
+    }
+    inner.appendChild(header);
+
+    // Bullets as horizontal feature strip
+    const strip = div('program-strip');
+    (s.bullets || []).forEach((b, idx) => {
+      const item = div('program-item');
+      item.setAttribute('data-animate', '');
+      const num = div('program-item-num');
+      num.textContent = String(idx + 1).padStart(2, '0');
+      const txt = div('program-item-text');
+      txt.innerHTML = formatBullet(b);
+      item.appendChild(num);
+      item.appendChild(txt);
+      strip.appendChild(item);
+    });
+    inner.appendChild(strip);
+
+    // Note tag
+    if (s.note) {
+      const noteWrap = div('program-note', 'data-animate');
+      const noteTxt = document.createElement('span');
+      noteTxt.textContent = s.note;
+      noteWrap.appendChild(noteTxt);
+      inner.appendChild(noteWrap);
+    }
+  }
+
+  /* ── TIMELINE ── */
+  function buildTimeline(inner, s) {
+    const header = div('content-header', 'data-animate');
+    const ey = div('eyebrow');
+    ey.textContent = 'Regulatory Delivery Roadmap';
+    header.appendChild(ey);
+    const hl = div('headline');
+    hl.innerHTML = `<span class="grad">${esc(s.headline || '')}</span>`;
+    header.appendChild(hl);
+    if (s.subheadline) {
+      const sub = div('subheadline');
+      sub.textContent = s.subheadline;
+      header.appendChild(sub);
+    }
+    inner.appendChild(header);
+
+    const tl = div('timeline-track');
+    const phases = s.phases || [];
+    phases.forEach((ph, idx) => {
+      const node = div('timeline-node');
+      node.setAttribute('data-animate', '');
+
+      const dot = div('timeline-dot');
+      const connector = div('timeline-connector');
+
+      const content = div('timeline-content');
+      const date = div('timeline-date');
+      date.textContent = ph.date;
+      const label = div('timeline-label');
+      label.textContent = ph.label;
+      const detail = div('timeline-detail');
+      detail.textContent = ph.detail;
+
+      content.appendChild(date);
+      content.appendChild(label);
+      content.appendChild(detail);
+
+      node.appendChild(dot);
+      if (idx < phases.length - 1) node.appendChild(connector);
+      node.appendChild(content);
+      tl.appendChild(node);
+    });
+    inner.appendChild(tl);
   }
 
   /* ── CONTENT ── */

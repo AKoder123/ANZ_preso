@@ -12,6 +12,90 @@
       "note": "17 Years · ANZ · Director"
     },
     {
+      "type": "program",
+      "headline": "The Stress Testing Initiative",
+      "subheadline": "A regulatory-driven transformation with clear, measurable outcomes",
+      "bullets": [
+        "Replace fragmented EWST/SAS 9.4 with a governed cloud-hosted platform",
+        "Meet CPS 900, ICAAP, CPS 190, IFRS9 and climate risk obligations",
+        "Reduce stress testing cycles from weeks to days",
+        "Uplift auditability, lineage and reproducibility across all outputs",
+        "Progressively decommission legacy systems through to FY29"
+      ],
+      "note": "Technology delivery · Vendor execution · Legacy decommissioning · Regulatory timelines"
+    },
+    {
+      "type": "content",
+      "headline": "Regulatory First — Not Optional",
+      "subheadline": "Success is measured in auditability, lineage and control — not just delivery",
+      "bullets": [
+        "Mandatory uplift: CPS 900, ICAAP, CPS 190, IFRS9 and climate risk",
+        "Every output must be auditable, reproducible and lineage-traced",
+        "Moves stress testing from business-managed EUCs to a governed platform",
+        "Single accountable tech owner: cloud, data, security, environments, BAU",
+        "Regulatory language converted into executable controls and audit evidence"
+      ]
+    },
+    {
+      "type": "beforeAfter",
+      "headline": "From Fragmented EUCs to Governed Platform",
+      "left": {
+        "title": "Current State",
+        "bullets": [
+          "EWST and SAS 9.4 environment",
+          "26 EUC groups, 150+ manual processes",
+          "Business-managed, low auditability",
+          "Stress testing cycles measured in weeks",
+          "High regulatory and operational risk"
+        ]
+      },
+      "right": {
+        "title": "Target State",
+        "bullets": [
+          "Cloud-hosted governed platform (ElysianNAT)",
+          "26 EUC groups and 150+ processes retired",
+          "Tech-managed, full lineage and control",
+          "Stress testing cycles reduced to days",
+          "CPS 900 compliant, climate-ready"
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "headline": "Vendor-Led Delivery with Tight Governance",
+      "subheadline": "ElysianNAT selected for lower delivery risk and better tech alignment",
+      "bullets": [
+        "Governing specialist vendor to deliver contractual outcomes",
+        "Quality gates and delivery timelines enforced with rigour",
+        "Post-go-live T&M exposure actively managed and capped",
+        "Strong background protecting ANZ commercially through vendor execution",
+        "Delivery certainty without sacrificing platform quality or compliance"
+      ]
+    },
+    {
+      "type": "timeline",
+      "headline": "Delivery Aligned to Regulatory Cycles",
+      "subheadline": "Sequenced milestones from Mar-27 through FY29",
+      "phases": [
+        { "date": "Mar 2027", "label": "Phase 1", "detail": "IWST go-live · Mortgages onboarded for ICAAP" },
+        { "date": "Sep 2027", "label": "Climate", "detail": "Climate stress readiness · ESG obligations met" },
+        { "date": "FY28", "label": "Decom", "detail": "EWST retirement · SAS 9.4 exit · EUC group removal" },
+        { "date": "FY29", "label": "Complete", "detail": "Full decommissioning · 150+ manual processes retired" }
+      ]
+    },
+    {
+      "type": "content",
+      "headline": "Decommissioning is a Core Outcome",
+      "subheadline": "Not just a new platform — intentional, costed legacy removal",
+      "bullets": [
+        "Retire EWST end-to-end — not coexist indefinitely",
+        "Exit SAS 9.4 with full data migration and lineage",
+        "Remove 26 EUC groups from the stress testing process",
+        "Retire 150+ manual processes with automated replacements",
+        "Delivers both material risk reduction and cost-out"
+      ]
+    },
+    {
       "type": "content",
       "headline": "17 Years of Enterprise Transformation",
       "subheadline": "A proven track record across ANZ's most complex programs",
@@ -25,27 +109,39 @@
     },
     {
       "type": "content",
-      "headline": "Large-Scale Technology Leadership",
-      "subheadline": "Delivering mission-critical programs under regulatory scrutiny",
+      "headline": "Large-Scale Regulated Delivery",
+      "subheadline": "Delivering mission-critical programs under full regulatory scrutiny",
       "bullets": [
         "Led ANZ Wealth Separation: $137m program, $975m+ benefits realised",
+        "$125m data centre and hybrid cloud transformation delivered",
         "Navigated high regulatory complexity and mission-critical data environments",
-        "Maintained customer and operational continuity throughout delivery",
-        "250+ resources coordinated across technology, risk and operations",
-        "Full end-to-end accountability from design through execution"
+        "Strategic vendor management: IBM, Cisco and major partners",
+        "Full end-to-end accountability from design through BAU readiness"
       ]
     },
     {
-      "type": "content",
-      "headline": "Cloud & Platform Delivery",
-      "subheadline": "Enabling scalable infrastructure at enterprise scale",
-      "bullets": [
-        "$125m data centre and hybrid cloud transformation delivered",
-        "Enabled scalable infrastructure and platform modernisation",
-        "Strategic vendor management: IBM, Cisco and major partners",
-        "Integrated platforms across enterprise data and downstream systems",
-        "Contractual outcomes, quality standards and timelines achieved"
-      ]
+      "type": "beforeAfter",
+      "headline": "Mapped to Role Criteria",
+      "left": {
+        "title": "What the Role Demands",
+        "bullets": [
+          "Own and drive end-to-end technology delivery",
+          "Translate regulatory needs into technology outcomes",
+          "Govern vendor-led cloud delivery commercially",
+          "Integrate with Program Director on plan and benefits",
+          "Drive decommissioning — not indefinite coexistence"
+        ]
+      },
+      "right": {
+        "title": "What I Bring",
+        "bullets": [
+          "Accountability for platform, integrations, controls and BAU",
+          "Regulatory language converted to controls, lineage, audit evidence",
+          "Governed specialist vendors with delivery certainty",
+          "Partnered on plan, dependencies, risks and funds",
+          "Milestones tied to regulator and cost outcomes"
+        ]
+      }
     },
     {
       "type": "content",
@@ -55,65 +151,19 @@
         "Own enterprise technology roadmaps across 57 major initiatives",
         "Manage complex dependencies, sequencing and trade-offs",
         "Governance frameworks with clear milestones, risks and progress",
-        "Disciplined approach to prioritisation and delivery certainty",
+        "$137m program governance with $975m+ benefits tracked",
         "Executive-ready reporting that drives decision-making"
-      ]
-    },
-    {
-      "type": "beforeAfter",
-      "headline": "Financial Acumen & Analytical Leadership",
-      "left": {
-        "title": "Financial Discipline",
-        "bullets": [
-          "$137m Wealth Separation program governed",
-          "$975m+ in benefits realisation tracked",
-          "Investment prioritisation across portfolios",
-          "Cost, risk and long-term value balanced"
-        ]
-      },
-      "right": {
-        "title": "Data-Driven Insight",
-        "bullets": [
-          "Complex regulatory requirements → executable outcomes",
-          "Reporting frameworks that drive prioritisation",
-          "Structured analysis at executive decision level",
-          "Clear insight across technical and business audiences"
-        ]
-      }
-    },
-    {
-      "type": "content",
-      "headline": "Stakeholder Influence & Advisory",
-      "subheadline": "Trusted across Risk, Technology, Business and external partners",
-      "bullets": [
-        "Led executive governance forums and C-suite alignment",
-        "Drove enterprise-wide outcomes across divisions",
-        "Known for clear, structured communication at all levels",
-        "Built trusted advisory relationships with senior leaders",
-        "Aligned stakeholders through complex multi-year programs"
-      ]
-    },
-    {
-      "type": "content",
-      "headline": "Problem Solving in Ambiguous Environments",
-      "subheadline": "No blueprint required — structured curiosity drives outcomes",
-      "bullets": [
-        "Led programs with no existing blueprint or precedent",
-        "Complexity spanning technology, regulation, ops and stakeholders",
-        "Curiosity-led, forward-thinking design across transformations",
-        "Legacy decommissioning and platform uplift track record",
-        "Structured problem solving that converts ambiguity into action"
       ]
     },
     {
       "type": "closing",
       "headline": "Ready to Lead the Stress Testing Program",
-      "subheadline": "Modernise ANZ's stress testing capability — with proven execution behind every commitment",
+      "subheadline": "17 years of regulated transformation — applied from day one to deliver platform, compliance and decommissioning outcomes ANZ can stand behind",
       "bullets": [
-        "Strengthen governance across credit and climate portfolios",
-        "Deliver scalable, forward-looking analytical infrastructure",
-        "Apply 17 years of regulated transformation experience",
-        "Drive executive alignment from day one"
+        "Platform delivery accountable, not delegated",
+        "Regulatory timelines met: Mar-27 through FY29",
+        "ElysianNAT governed to contractual outcomes",
+        "Legacy fully retired — not coexisting indefinitely"
       ],
       "note": "Stephen Rando · Director · ANZ"
     }
